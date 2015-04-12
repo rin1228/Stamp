@@ -1,0 +1,509 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1437EE7C1A7DEC6A00D98661 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1437EE7B1A7DEC6A00D98661 /* Foundation.framework */; };
+		1437EE7E1A7DEC6A00D98661 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1437EE7D1A7DEC6A00D98661 /* CoreGraphics.framework */; };
+		1437EE801A7DEC6A00D98661 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1437EE7F1A7DEC6A00D98661 /* UIKit.framework */; };
+		1437EE861A7DEC6A00D98661 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1437EE841A7DEC6A00D98661 /* InfoPlist.strings */; };
+		1437EE881A7DEC6A00D98661 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1437EE871A7DEC6A00D98661 /* main.m */; };
+		1437EE8C1A7DEC6A00D98661 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1437EE8B1A7DEC6A00D98661 /* AppDelegate.m */; };
+		1437EE8F1A7DEC6A00D98661 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1437EE8D1A7DEC6A00D98661 /* Main.storyboard */; };
+		1437EE921A7DEC6A00D98661 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1437EE911A7DEC6A00D98661 /* ViewController.m */; };
+		1437EE941A7DEC6A00D98661 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1437EE931A7DEC6A00D98661 /* Images.xcassets */; };
+		1437EE9B1A7DEC6A00D98661 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1437EE9A1A7DEC6A00D98661 /* XCTest.framework */; };
+		1437EE9C1A7DEC6A00D98661 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1437EE7B1A7DEC6A00D98661 /* Foundation.framework */; };
+		1437EE9D1A7DEC6A00D98661 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1437EE7F1A7DEC6A00D98661 /* UIKit.framework */; };
+		1437EEA51A7DEC6A00D98661 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1437EEA31A7DEC6A00D98661 /* InfoPlist.strings */; };
+		1437EEA71A7DEC6A00D98661 /* TouchStampTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1437EEA61A7DEC6A00D98661 /* TouchStampTests.m */; };
+		1437EFBA1AA2F5E600D98661 /* インコ01.png in Resources */ = {isa = PBXBuildFile; fileRef = 1437EFB61AA2F5E600D98661 /* インコ01.png */; };
+		1437EFBB1AA2F5E600D98661 /* インコ02.png in Resources */ = {isa = PBXBuildFile; fileRef = 1437EFB71AA2F5E600D98661 /* インコ02.png */; };
+		1437EFBC1AA2F5E600D98661 /* インコ03.png in Resources */ = {isa = PBXBuildFile; fileRef = 1437EFB81AA2F5E600D98661 /* インコ03.png */; };
+		1437EFBD1AA2F5E600D98661 /* インコ04.png in Resources */ = {isa = PBXBuildFile; fileRef = 1437EFB91AA2F5E600D98661 /* インコ04.png */; };
+		1437EFBF1AA2FA4800D98661 /* 背景.png in Resources */ = {isa = PBXBuildFile; fileRef = 1437EFBE1AA2FA4800D98661 /* 背景.png */; };
+		1437EFC91AA3041900D98661 /* カメラ.png in Resources */ = {isa = PBXBuildFile; fileRef = 1437EFC81AA3041900D98661 /* カメラ.png */; };
+		1437EFD31AA3447C00D98661 /* save .png in Resources */ = {isa = PBXBuildFile; fileRef = 1437EFD21AA3447C00D98661 /* save .png */; };
+		14753AEF1AB47BF9002C439A /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = 14753AEE1AB47BF9002C439A /* back.png */; };
+		14753AF11AB47F29002C439A /* clear.png in Resources */ = {isa = PBXBuildFile; fileRef = 14753AF01AB47F29002C439A /* clear.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1437EE9E1A7DEC6A00D98661 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1437EE701A7DEC6900D98661 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1437EE771A7DEC6A00D98661;
+			remoteInfo = TouchStamp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1437EE781A7DEC6A00D98661 /* TouchStamp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TouchStamp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1437EE7B1A7DEC6A00D98661 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1437EE7D1A7DEC6A00D98661 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1437EE7F1A7DEC6A00D98661 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1437EE831A7DEC6A00D98661 /* TouchStamp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TouchStamp-Info.plist"; sourceTree = "<group>"; };
+		1437EE851A7DEC6A00D98661 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1437EE871A7DEC6A00D98661 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1437EE891A7DEC6A00D98661 /* TouchStamp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TouchStamp-Prefix.pch"; sourceTree = "<group>"; };
+		1437EE8A1A7DEC6A00D98661 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1437EE8B1A7DEC6A00D98661 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1437EE8E1A7DEC6A00D98661 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1437EE901A7DEC6A00D98661 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1437EE911A7DEC6A00D98661 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1437EE931A7DEC6A00D98661 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1437EE991A7DEC6A00D98661 /* TouchStampTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TouchStampTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1437EE9A1A7DEC6A00D98661 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		1437EEA21A7DEC6A00D98661 /* TouchStampTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TouchStampTests-Info.plist"; sourceTree = "<group>"; };
+		1437EEA41A7DEC6A00D98661 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1437EEA61A7DEC6A00D98661 /* TouchStampTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TouchStampTests.m; sourceTree = "<group>"; };
+		1437EFB61AA2F5E600D98661 /* インコ01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "インコ01.png"; sourceTree = "<group>"; };
+		1437EFB71AA2F5E600D98661 /* インコ02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "インコ02.png"; sourceTree = "<group>"; };
+		1437EFB81AA2F5E600D98661 /* インコ03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "インコ03.png"; sourceTree = "<group>"; };
+		1437EFB91AA2F5E600D98661 /* インコ04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "インコ04.png"; sourceTree = "<group>"; };
+		1437EFBE1AA2FA4800D98661 /* 背景.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "背景.png"; sourceTree = "<group>"; };
+		1437EFC81AA3041900D98661 /* カメラ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "カメラ.png"; sourceTree = "<group>"; };
+		1437EFD21AA3447C00D98661 /* save .png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "save .png"; sourceTree = "<group>"; };
+		14753AEE1AB47BF9002C439A /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
+		14753AF01AB47F29002C439A /* clear.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clear.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1437EE751A7DEC6A00D98661 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1437EE7E1A7DEC6A00D98661 /* CoreGraphics.framework in Frameworks */,
+				1437EE801A7DEC6A00D98661 /* UIKit.framework in Frameworks */,
+				1437EE7C1A7DEC6A00D98661 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1437EE961A7DEC6A00D98661 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1437EE9B1A7DEC6A00D98661 /* XCTest.framework in Frameworks */,
+				1437EE9D1A7DEC6A00D98661 /* UIKit.framework in Frameworks */,
+				1437EE9C1A7DEC6A00D98661 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1437EE6F1A7DEC6900D98661 = {
+			isa = PBXGroup;
+			children = (
+				1437EE811A7DEC6A00D98661 /* TouchStamp */,
+				1437EEA01A7DEC6A00D98661 /* TouchStampTests */,
+				1437EE7A1A7DEC6A00D98661 /* Frameworks */,
+				1437EE791A7DEC6A00D98661 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1437EE791A7DEC6A00D98661 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1437EE781A7DEC6A00D98661 /* TouchStamp.app */,
+				1437EE991A7DEC6A00D98661 /* TouchStampTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1437EE7A1A7DEC6A00D98661 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1437EE7B1A7DEC6A00D98661 /* Foundation.framework */,
+				1437EE7D1A7DEC6A00D98661 /* CoreGraphics.framework */,
+				1437EE7F1A7DEC6A00D98661 /* UIKit.framework */,
+				1437EE9A1A7DEC6A00D98661 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1437EE811A7DEC6A00D98661 /* TouchStamp */ = {
+			isa = PBXGroup;
+			children = (
+				14753AF01AB47F29002C439A /* clear.png */,
+				14753AEE1AB47BF9002C439A /* back.png */,
+				1437EFD21AA3447C00D98661 /* save .png */,
+				1437EFC81AA3041900D98661 /* カメラ.png */,
+				1437EFBE1AA2FA4800D98661 /* 背景.png */,
+				1437EFB61AA2F5E600D98661 /* インコ01.png */,
+				1437EFB71AA2F5E600D98661 /* インコ02.png */,
+				1437EFB81AA2F5E600D98661 /* インコ03.png */,
+				1437EFB91AA2F5E600D98661 /* インコ04.png */,
+				1437EE8A1A7DEC6A00D98661 /* AppDelegate.h */,
+				1437EE8B1A7DEC6A00D98661 /* AppDelegate.m */,
+				1437EE8D1A7DEC6A00D98661 /* Main.storyboard */,
+				1437EE901A7DEC6A00D98661 /* ViewController.h */,
+				1437EE911A7DEC6A00D98661 /* ViewController.m */,
+				1437EE931A7DEC6A00D98661 /* Images.xcassets */,
+				1437EE821A7DEC6A00D98661 /* Supporting Files */,
+			);
+			path = TouchStamp;
+			sourceTree = "<group>";
+		};
+		1437EE821A7DEC6A00D98661 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1437EE831A7DEC6A00D98661 /* TouchStamp-Info.plist */,
+				1437EE841A7DEC6A00D98661 /* InfoPlist.strings */,
+				1437EE871A7DEC6A00D98661 /* main.m */,
+				1437EE891A7DEC6A00D98661 /* TouchStamp-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1437EEA01A7DEC6A00D98661 /* TouchStampTests */ = {
+			isa = PBXGroup;
+			children = (
+				1437EEA61A7DEC6A00D98661 /* TouchStampTests.m */,
+				1437EEA11A7DEC6A00D98661 /* Supporting Files */,
+			);
+			path = TouchStampTests;
+			sourceTree = "<group>";
+		};
+		1437EEA11A7DEC6A00D98661 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1437EEA21A7DEC6A00D98661 /* TouchStampTests-Info.plist */,
+				1437EEA31A7DEC6A00D98661 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1437EE771A7DEC6A00D98661 /* TouchStamp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1437EEAA1A7DEC6A00D98661 /* Build configuration list for PBXNativeTarget "TouchStamp" */;
+			buildPhases = (
+				1437EE741A7DEC6A00D98661 /* Sources */,
+				1437EE751A7DEC6A00D98661 /* Frameworks */,
+				1437EE761A7DEC6A00D98661 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TouchStamp;
+			productName = TouchStamp;
+			productReference = 1437EE781A7DEC6A00D98661 /* TouchStamp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1437EE981A7DEC6A00D98661 /* TouchStampTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1437EEAD1A7DEC6A00D98661 /* Build configuration list for PBXNativeTarget "TouchStampTests" */;
+			buildPhases = (
+				1437EE951A7DEC6A00D98661 /* Sources */,
+				1437EE961A7DEC6A00D98661 /* Frameworks */,
+				1437EE971A7DEC6A00D98661 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1437EE9F1A7DEC6A00D98661 /* PBXTargetDependency */,
+			);
+			name = TouchStampTests;
+			productName = TouchStampTests;
+			productReference = 1437EE991A7DEC6A00D98661 /* TouchStampTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1437EE701A7DEC6900D98661 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Rin;
+				TargetAttributes = {
+					1437EE981A7DEC6A00D98661 = {
+						TestTargetID = 1437EE771A7DEC6A00D98661;
+					};
+				};
+			};
+			buildConfigurationList = 1437EE731A7DEC6900D98661 /* Build configuration list for PBXProject "TouchStamp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1437EE6F1A7DEC6900D98661;
+			productRefGroup = 1437EE791A7DEC6A00D98661 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1437EE771A7DEC6A00D98661 /* TouchStamp */,
+				1437EE981A7DEC6A00D98661 /* TouchStampTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1437EE761A7DEC6A00D98661 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1437EE941A7DEC6A00D98661 /* Images.xcassets in Resources */,
+				1437EFD31AA3447C00D98661 /* save .png in Resources */,
+				1437EFBD1AA2F5E600D98661 /* インコ04.png in Resources */,
+				14753AF11AB47F29002C439A /* clear.png in Resources */,
+				1437EFBC1AA2F5E600D98661 /* インコ03.png in Resources */,
+				1437EFBB1AA2F5E600D98661 /* インコ02.png in Resources */,
+				1437EE861A7DEC6A00D98661 /* InfoPlist.strings in Resources */,
+				1437EE8F1A7DEC6A00D98661 /* Main.storyboard in Resources */,
+				1437EFC91AA3041900D98661 /* カメラ.png in Resources */,
+				14753AEF1AB47BF9002C439A /* back.png in Resources */,
+				1437EFBF1AA2FA4800D98661 /* 背景.png in Resources */,
+				1437EFBA1AA2F5E600D98661 /* インコ01.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1437EE971A7DEC6A00D98661 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1437EEA51A7DEC6A00D98661 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1437EE741A7DEC6A00D98661 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1437EE921A7DEC6A00D98661 /* ViewController.m in Sources */,
+				1437EE8C1A7DEC6A00D98661 /* AppDelegate.m in Sources */,
+				1437EE881A7DEC6A00D98661 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1437EE951A7DEC6A00D98661 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1437EEA71A7DEC6A00D98661 /* TouchStampTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1437EE9F1A7DEC6A00D98661 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1437EE771A7DEC6A00D98661 /* TouchStamp */;
+			targetProxy = 1437EE9E1A7DEC6A00D98661 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1437EE841A7DEC6A00D98661 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1437EE851A7DEC6A00D98661 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1437EE8D1A7DEC6A00D98661 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1437EE8E1A7DEC6A00D98661 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1437EEA31A7DEC6A00D98661 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1437EEA41A7DEC6A00D98661 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1437EEA81A7DEC6A00D98661 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1437EEA91A7DEC6A00D98661 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1437EEAB1A7DEC6A00D98661 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TouchStamp/TouchStamp-Prefix.pch";
+				INFOPLIST_FILE = "TouchStamp/TouchStamp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1437EEAC1A7DEC6A00D98661 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TouchStamp/TouchStamp-Prefix.pch";
+				INFOPLIST_FILE = "TouchStamp/TouchStamp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		1437EEAE1A7DEC6A00D98661 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TouchStamp.app/TouchStamp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TouchStamp/TouchStamp-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "TouchStampTests/TouchStampTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		1437EEAF1A7DEC6A00D98661 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TouchStamp.app/TouchStamp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TouchStamp/TouchStamp-Prefix.pch";
+				INFOPLIST_FILE = "TouchStampTests/TouchStampTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1437EE731A7DEC6900D98661 /* Build configuration list for PBXProject "TouchStamp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1437EEA81A7DEC6A00D98661 /* Debug */,
+				1437EEA91A7DEC6A00D98661 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1437EEAA1A7DEC6A00D98661 /* Build configuration list for PBXNativeTarget "TouchStamp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1437EEAB1A7DEC6A00D98661 /* Debug */,
+				1437EEAC1A7DEC6A00D98661 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1437EEAD1A7DEC6A00D98661 /* Build configuration list for PBXNativeTarget "TouchStampTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1437EEAE1A7DEC6A00D98661 /* Debug */,
+				1437EEAF1A7DEC6A00D98661 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1437EE701A7DEC6900D98661 /* Project object */;
+}
